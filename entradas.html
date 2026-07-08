@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
    
-    -->
+    
     <link rel="stylesheet" href="css/styles.css" />
     <script type="module" src="script.js"></script>
   </head>
@@ -32,7 +32,35 @@
     <a href="entradas.html" class="activo">entradas</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+     <h2>Encuesta o datos de la entradas</h2>
+     <p>Ingrese sus datos para realizar la reserva de la entrada</p>
+     <section>
+      <div id="formulario">
+        <h2>Tus datos</h2>
+        <form action="#">
+          <label for="formnombre">Nombre</label> 
+          <input type="text" name="formnombre" id="formnombre" maxlength="30" minlength="5"required placeholder="Ingrese su nombre">
+          
+          <label for="formapellido">Apellido</label> 
+          <input type="text" name="formapellido" id="formapellido" maxlength="30" minlength="5"required placeholder="Ingrese su apellido">
+         
+          <input id="formedad" required type="number" placeholder="Ingrese su edad">
+
+          <input id="formclave" required type="password" placeholder="Ingrese la palabra secreta">
+
+          <input type="email" placeholder="correopp@dom.com">
+
+          <input type="radio" id="formf" name="formsexo" value="femenino">
+          <label for="fem">femenino</label>
+          <input type="radio" id="form" name="formsexo" value="masculino">
+          <label for="mas">masculina</label>
+        
+
+
+
+        </form>
+      </div>
+     </section>
     </main>
     <footer>
     <div id="colegio">
